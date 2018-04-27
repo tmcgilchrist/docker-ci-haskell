@@ -14,7 +14,7 @@ matrix:
   - env: GHCVER=8.4.2 CABALVER=2.0
 
 script:
-  - travis_wait 90 bin/ci
+  - bin/ci
 
 notifications:
   slack:
