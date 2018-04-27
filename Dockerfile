@@ -16,7 +16,7 @@ RUN apt-get update -y \
   && add-apt-repository -y "https://dl.bintray.com/irreverent-pixel-feats/ipf xenial main" \
   && apt-add-repository -y "ppa:hvr/ghc" \
   && apt-get update -y \
-  && apt-get install -y ghc-${GHC_VERSION} cabal-install-${CABAL_VER} git bitb \
+  && apt-get install -y ghc-${GHC_VERSION} cabal-install-${CABAL_VER} git bitb zip \
   && ln -sf /opt/ghc/bin/* /usr/local/bin \
   && ln -sf /opt/cabal/bin/* /usr/local/bin \
   && cabal update
