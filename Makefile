@@ -1,4 +1,4 @@
-REPO = irreverentpixelfeats/dev-haskell
+REPO = irreverentpixelfeats/ci-haskell
 BASE_TAG = ubuntu_xenial
 
 .PHONY: version deps build image all
