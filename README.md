@@ -1,4 +1,4 @@
-# docker-ci-haskell [![Build Status](https://img.shields.io/travis/irreverent-pixel-feats/docker-ci-haskell.svg?style=flat)](https://travis-ci.org/irreverent-pixel-feats/docker-ci-haskell)
+# docker-ci-haskell [![Build Status](https://img.shields.io/travis/tmcgilchrist/docker-ci-haskell.svg?style=flat)](https://travis-ci.org/tmcgilchrist/docker-ci-haskell)
 
 Contains:
 

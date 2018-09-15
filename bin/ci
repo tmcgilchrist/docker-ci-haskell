@@ -1,6 +1,6 @@
 #!/bin/sh -eux
 
-REPO="irreverentpixelfeats/ci-haskell"
+REPO="tmcgilchrist/ci-haskell"
 BASE_TAG="ubuntu_xenial-${GHCVER}_${CABALVER}"
 
 bin/ci.branches
