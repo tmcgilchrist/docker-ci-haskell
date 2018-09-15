@@ -12,7 +12,7 @@ RUN apt-get update -y \
   && apt-add-repository -y "ppa:git-core/ppa" \
   && apt-add-repository -y "ppa:hvr/ghc" \
   && apt-get update -y \
-  && apt-get install -y ghc-${GHC_VERSION} cabal-install-${CABAL_VER} git bitb zip awscli \
+  && apt-get install -y ghc-${GHC_VERSION} cabal-install-${CABAL_VER} git zip awscli \
   && ln -sf /opt/ghc/bin/* /usr/local/bin \
   && ln -sf /opt/cabal/bin/* /usr/local/bin \
   && cabal update
