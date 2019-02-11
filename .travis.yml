@@ -12,6 +12,7 @@ matrix:
   - env: GHCVER=8.2.2 CABALVER=2.0
   - env: GHCVER=8.2.2 CABALVER=2.2
   - env: GHCVER=8.2.2 CABALVER=2.4
+  - env: GHCVER=8.4.4 CABALVER=2.0
   - env: GHCVER=8.4.4 CABALVER=2.2
   - env: GHCVER=8.4.4 CABALVER=2.4
 
